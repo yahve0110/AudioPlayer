@@ -78,17 +78,24 @@ body {
     width: 100%;
     height: 50px;
     background: rgba(26, 26, 26, 0.80);
-
+  
     backdrop-filter: blur(10px);
     margin-bottom: 3rem;
    
+   
 }
+
+.header-text{
+    margin-left: 10%;
+}
+
 .header p{
     margin: 0;
     padding: 0;
     color: #F6BD41;
     font-size: 36px;
-    margin-left: 15px;
+    margin-left: 2%;
+   
 }
 
 .container1{
