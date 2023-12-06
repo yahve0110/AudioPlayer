@@ -1,0 +1,156 @@
+/* *{
+    border: 1px solid red;
+} */
+
+body {
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    
+   
+}
+
+.firstPlaylist {
+    display: flex;
+    margin-bottom: 30px; 
+}
+
+.firstPlaylist img {
+    margin-right: 30px; 
+    height: 80%; 
+}
+
+.firstPlaylist .infodiv {
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+
+.container1 {
+    width: 600px; 
+    padding: 0.8rem;
+    background-color: rgb(40, 40, 40);
+    color: aliceblue;
+    border-radius: 15px;
+}
+
+.trackdiv {
+    display: flex;
+    margin-bottom: 30px; 
+}
+
+.trackdiv p {
+    margin: 0;
+    margin-bottom: 8px; 
+}
+
+.imgTrack{
+    margin-top: 16px;
+    margin-right: 1rem;
+}
+
+.imgsubcontainer {
+    margin-right: 2%; 
+}
+
+.namePlaylist {
+    font-size: 36px; 
+    font-weight: bold; 
+}
+
+.nrandduration {
+    color: rgb(115, 115, 115);
+    font-size: 14px; 
+}
+
+.artistsInPlaylist {
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.artistsInPlaylistinfoOthers {
+    color: gray;
+    margin-left: 3px; 
+}
+
+.header{
+    width: 100%;
+    height: 50px;
+    background: rgba(26, 26, 26, 0.80);
+
+    backdrop-filter: blur(10px);
+    margin-bottom: 3rem;
+   
+}
+.header p{
+    margin: 0;
+    padding: 0;
+    color: #F6BD41;
+    font-size: 36px;
+    margin-left: 15px;
+}
+
+.container1{
+    margin-left: 5rem;
+}
+
+audio::-webkit-media-controls-panel{
+    background-color: #F6BD41;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+}
+
+.header-text{
+    color: #F6BD41;
+    font-size: 33px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    padding-top: 3px;
+
+}
+
+.text{
+ 
+    font-weight: 700;
+    display: inline-block;
+    
+}
+.myplaylists{
+    margin-left: 20%;
+}
+
+h1{
+    color: white;
+}
+
+
+
+.trackInfoElement{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3px;
+    flex-direction: row-reverse;
+    margin-bottom: 6px;
+  
+}
+
+.subtrackContainer{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.fire{
+    margin-right: 7px;
+}
