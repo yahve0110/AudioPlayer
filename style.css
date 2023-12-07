@@ -78,24 +78,17 @@ body {
     width: 100%;
     height: 50px;
     background: rgba(26, 26, 26, 0.80);
-  
+    
     backdrop-filter: blur(10px);
     margin-bottom: 3rem;
    
-   
 }
-
-.header-text{
-    margin-left: 10%;
-}
-
 .header p{
     margin: 0;
     padding: 0;
     color: #F6BD41;
     font-size: 36px;
-    margin-left: 2%;
-   
+    margin-left: 15px;
 }
 
 .container1{
@@ -104,6 +97,14 @@ body {
 
 audio::-webkit-media-controls-panel{
     background-color: #F6BD41;
+}
+
+audio{
+    height: 30px;
+}
+
+audio::-webkit-media-controls-enclosure {
+    border-radius: 0;
 }
 
 .content{
